@@ -44,4 +44,7 @@ body {
     padding: 10px;
     border: 1px solid #222;
     cursor: pointer;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
 }
