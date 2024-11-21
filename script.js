@@ -38,4 +38,6 @@ const questions = [
             { text: "J.K. Rowling", correct: false}
         ]
     }
-]
+];
+
+const questionElement = document.getElementById("question");
