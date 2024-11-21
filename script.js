@@ -89,7 +89,6 @@ function selectAnswer(e){
     }else {
         selectedBtn.classList.add("incorrect")
     }
-
 }
 
 startQuiz()
