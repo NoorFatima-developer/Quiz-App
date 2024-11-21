@@ -50,5 +50,12 @@ score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
+    nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+function showQuestion(){
+    const currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+}   
