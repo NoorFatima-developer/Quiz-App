@@ -66,6 +66,6 @@ body {
     cursor: pointer;
     border-radius: 4px;
     /* display: block; */
-    /* hide button because will display when selec mcqs... */
+    /* hide button because will display when select mcqs... */
     display: none;
 }
