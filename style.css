@@ -56,5 +56,14 @@ body {
 }
 
 #next-btn {
-    
+    background-color: #001e4d;
+    columns: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    /* display: block; */
 }
