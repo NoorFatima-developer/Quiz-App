@@ -61,7 +61,6 @@ function showQuestion(){
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
-
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
@@ -89,6 +88,7 @@ function selectAnswer(e){
     }else {
         selectedBtn.classList.add("incorrect")
     }
+
 }
 
 startQuiz()
