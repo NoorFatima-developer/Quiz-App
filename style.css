@@ -57,7 +57,7 @@ body {
 
 #next-btn {
     background-color: #001e4d;
-    columns: #fff;
+    color: #fff;
     font-weight: 500;
     width: 150px;
     border: 0;
@@ -66,4 +66,6 @@ body {
     cursor: pointer;
     border-radius: 4px;
     /* display: block; */
+    /* hide button because will display when selec mcqs... */
+    display: none;
 }
